@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+
+.Food_Items_Categories{
+
+    display: flex;
+    flex-direction:column;
+  
+    /* width:100vw;
+    height: 100vh; */
+
+    overflow: hidden;
+       
+}
+
+.category_list {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    
+    
+    height:760px;
+    overflow-x: auto;
+
+    align-items: center;  
+     
+}
+
+.category_list_scroll{
+
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 15px;
+
+
+    /* overflow-x: auto; */
+
+    /* width: min-content; */
+
+
+    
+} 
+
+
+.category_list::-webkit-scrollbar {
+    display: none;
+} 
+
+.category_list_scroll > p, .food_display > p{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+
+    width: 200px;
+    
+    font-family:ubuntu;
+
+    padding: 10px;
+    margin:0 8px;
+
+    border: 3px solid yellow;
+    border-radius: 4px;
+    justify-content: center;
+    color:white;
+
+    cursor: pointer;
+}
+
+.category_list_scroll > p:hover{
+    color: black;
+    font-weight: bold;
+    background-color: yellow;
+}
+
+.category_name{
+
+    font-family: ubuntu;
+    font-weight: bold;
+    font-size: 29px;
+    color: yellow;
+
+    margin-left: 28px;
+}
+
+   
+
+.food_display{
+
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 10px;
+
+    justify-content: flex-start;
+
+    overflow-x: scroll;
+
+    /* grid-column-start: auto; */
+
+    
+    /* display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    /* width:100%; */
+/* 
+    overflow-x: scroll;-ms-overflow-style: none;  
+    scrollbar-width: none;  */
+
+    
+    /* height: 100vh; */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.food_display::-webkit-scrollbar {
+    display: none;
+  }
+
+a::after{
+
+    background-color: yellow;
+}
+
+.category {
+
+    display: flex;
+    
+    border: 2px solid yellow;
+    border-radius: 10px;
+
+    height:8vh;
+    width:13.5vw;
+
+    
+
+    /* margin-top:1vh;
+    margin-bottom: 1vh; */
+
+    justify-content: center;
+
+}
+
+a{
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+
+    justify-content: center;
+    align-items: center;
+    
+    text-align: center;
+    text-decoration: none;
+    
+    font-family: ubuntu;
+    font-size: 15px ;
+
+
+    padding:10px;
+    color:white;
+ 
+}
+
+a:hover div{
+
+    border:2px solid yellow;
+
+    font-weight: bold;
+
+    color: black;
+    
+    background-color: yellow;
+
+}
+
+        
+.menu_list{
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap:nowrap;
+
+    justify-content: flex-start;
+
+    background-color: black;
+
+    overflow:scroll;
+    
+
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+
+    
+    /* height: 100vh; */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.menu_list::-webkit-scrollbar {
+    display: none;
+  }
+
+ 
+
+.menu_list_display{
+
+    display: flex;
+    flex-direction: column;
+    /* width:max-content; */
+    /* overflow: scroll; */
+}
+  
+
+ 
+
+.starting_menu{
+
+    height:100vh;
+    background-color: blue;
+}
+
+.menu_dosai{
+
+    height:100vh;
+    background-color: violet;
+}
+
+
+
+@media  screen and (max-width:760px){
+
+    .Food_Items_Categories{
+
+        display: flex;
+        flex-direction: row;
+    
+        height:100vh;
+        width:100vw;
+        
+    
+        
+    }
+/*     
+    .category_list{
+    
+        display: flex;
+        flex-direction: row;
+    
+        height:4vw;
+        max-width: 160px;
+    
+        margin-left:1vw;
+    
+    } */
+    
+    .category {
+    
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    
+        justify-content: flex-start;
+        align-items: flex-start;
+    
+        border:2px solid yellow;
+        border-radius: 8px;
+    
+        padding:3vh;
+        margin:1vh;
+    
+    
+    
+    }
+    
+    .category a{
+    
+        color:white;
+    
+        text-decoration: none;
+        text-align: center;
+    
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    .category:hover{
+    
+        border-radius: 5px ;
+    
+        background-color: yellow;
+    }
+    
+    .category:hover a{
+    
+        font-weight: bold;
+        font-size: 17px;
+        color:black;
+    
+    
+    }
+    
+    
+
+
+    
+}

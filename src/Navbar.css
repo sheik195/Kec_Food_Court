@@ -1,0 +1,179 @@
+/* :root{
+
+    --brown:rgba(84, 39, 0);
+    --orange:rgb(246, 138, 7);
+    --yellow:rgb(241, 220, 30);
+
+} */
+
+.navigation_bar{
+
+    display:flex;
+    flex-direction: column; 
+
+    height: 100vh;
+    width:75px; 
+
+    /* border-right: 5px solid yellow; */
+       
+    background-color: black; 
+
+}
+
+.container_log{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    height: 25%;
+
+    /* position: relative; */
+    /* bottom: 0; */
+    /* left: 0; */
+}
+
+
+
+/* .logo_fc > img{
+    width: 75px;
+    height:75px;
+} */
+
+.menu_container{
+
+    display:flex;
+    flex-direction: column;
+ 
+    height:50%;
+    width:75px;
+    margin-top: 29vh;
+    
+    /* background-color: black; */
+}
+
+.menu_item{
+
+    display:flex;
+    flex-direction: column;
+    flex:1;
+
+    margin:auto;
+    align-items: center;
+    justify-content: center;
+
+    height:50px;
+    
+
+    background-color: black;
+
+}
+
+
+
+.login{
+
+    display: flex;
+    flex-direction: column; 
+
+    position:fixed;
+    bottom:0px;
+
+    width:75px;
+    height:75px;
+
+    background-color: black;
+}
+
+.menu_item:nth-child(even){
+
+    background-color: black;
+}
+
+
+@media screen and (max-width: 760px) {
+    
+    .navigation_bar{
+    
+        display:flex;
+        flex-direction: row;
+    
+        width:100%;
+        height:75px;
+        
+        border-right: 0px;
+        border-bottom: 5px solid grey;
+
+        background-color: black;
+    
+        
+    
+    }
+    
+    /* .logo_fc > img{
+        width: 75px;
+        height:75px;
+    } */
+    
+    .menu_container{
+    
+        display:flex;
+        flex-direction: row;
+        
+        margin-top: 12px;
+        margin-left: 17.5vw;
+        width:60%;
+
+        justify-content: center;
+        align-items: center;
+
+
+        
+        
+        background-color: black;
+    
+    
+    }
+    
+    .menu_item{
+    
+        display:flex;
+        flex-direction: row;
+        flex:1;
+
+        justify-content: center;
+        align-items: center;
+    
+        width:75px;
+        background-color: black;
+    
+    
+    }
+    
+    .page{
+        
+        border:2px solid yellow;
+        border-radius: 10px 10px 10px 10px ;
+        background-color: yellow;
+    }
+    
+    .login{
+    
+        display: flex;
+        flex-direction: row; 
+    
+        position:absolute;
+        top:0px;
+        right:0px;
+    
+        width:75px;
+        height:75px;
+    
+        background-color: black;
+    
+    
+        
+    }
+    
+
+   
+} 

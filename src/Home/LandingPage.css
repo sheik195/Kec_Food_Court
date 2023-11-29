@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+.LandingPage_container{
+    display: flex;
+    flex-direction: row;
+
+    width:100vw;
+    height:100vh;
+
+    background-color: black;
+
+}
+
+
+.kec_fc{
+
+    display:flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    z-index: 100;
+
+    margin-left: 10vw;
+    
+}
+
+
+#heading{
+
+    font-size: 5vw;
+    font-family:cursive;
+
+    line-height: 0px;
+    
+
+    color:white;
+
+}
+
+
+#tagline_one{
+
+    text-align:center;
+    font-family: ubuntu;
+    font-weight: bold;
+
+    width:100%;
+    
+    letter-spacing: 0.5vw;
+    line-height:0px ;
+
+    color:white
+
+}
+
+
+#tagline_two{
+
+    text-align:center;
+    font-family: ubuntu;
+    font-weight: bold;
+
+    width:100%;
+    
+    letter-spacing: 0.5vw;
+    
+    color:white
+
+}
+
+.burger_image{
+
+}
+
+#landing_page_image_1{
+
+    z-index: -1px;
+    position:absolute;
+    height:100vh;
+    right:0;
+}
+
+
+
+
+#order_now_button{
+
+    border:2px solid yellow;
+    border-radius: 8px;
+
+
+    padding: 20px;
+    margin:100px;
+
+    cursor:pointer;
+
+    font-family:ubuntu;
+    font-size: 1rem;
+    font-weight: bold;
+    color:yellow;
+    
+    background-color: black;
+
+}
+
+
+span{
+    color:yellow;
+    font-weight: bold;
+
+}
+
+
+@media screen and (max-width: 760px) {
+
+    .LandingPage_container{
+        
+        display: flex;
+        flex-direction: column;
+    
+        height:calc(100vh - 80px);
+        width: 100vw;
+    
+        background-color: black;
+    
+    }
+    
+    .kec_fc{
+    
+        display:flex;
+        flex-direction: column;
+    
+        justify-content: center;
+        align-items: center;
+
+        width:100vw;
+        height:100vh;
+
+        margin: 0px;
+    
+        background-color: black;
+    
+    }
+    
+    #heading{
+    
+        font-size: 38px;
+        font-family:cursive;
+    
+        line-height: 2px;
+        width:80vw;
+        text-align: center;
+    
+        color:white;
+        
+    }
+    
+    #tagline_one{
+    
+        text-align:center;
+        font-family: ubuntu;
+        font-weight: bold;
+    
+        width:80vw;
+        
+        letter-spacing: 0.5vw;
+        line-height:0px ;
+    
+        color:white;
+        background-color: aqua;
+    
+    }
+    
+    
+    #tagline_two{
+    
+        text-align:center;
+        font-family: ubuntu;
+        font-weight: bold;
+    
+        width:80vw;
+        
+        letter-spacing: 0.5vw;
+        
+        color:white
+    
+    }
+
+    .burger_image{
+
+        display: none;
+    }
+
+    .biriyani_image{
+        display:flex;
+        /* idth: 100vw; */
+        /* width: 80vw; */
+        
+
+    }
+    
+    button{
+        
+        border:2px solid yellow;
+        border-radius: 8px;
+    
+        padding: 20px;
+        
+        margin:40px;
+    
+        font-family:ubuntu;
+        font-size: 1rem;
+        font-weight: bold;
+        color:yellow;
+        
+        background-color: black;
+    
+    }
+    
+    span{
+        color:yellow;
+        font-weight: bold;
+    
+    }
+
+}

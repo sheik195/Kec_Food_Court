@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+
+.Landing_Page_Category{
+
+    display : flex;
+    flex-direction: row;
+
+    width: 100vw;
+    height: 100vh;
+
+    align-items: center;
+    justify-content: space-evenly;
+
+    background-color: black;
+}
+
+#image:nth-child(odd){
+
+    height: 250px;
+    width:250px;
+
+	cursor: pointer;
+
+    border: 4px solid grey;
+	border-radius: 20px;
+
+    animation: myAnim 2.25s ease 0s 1 normal forwards;
+}
+
+
+#image:nth-child(even){
+
+	height: 250px;
+    width:250px;
+
+	cursor: pointer;
+
+	border: 4px solid white;
+	border-radius: 20px;
+
+    animation: myAnim 2.25s ease 0s 1 normal forwards;
+
+}
+
+.containers {
+
+    display:flex;
+    flex-direction: column;
+    
+    align-items: center;
+    justify-content: center;
+
+}
+
+#image:hover {
+
+    /* transform: scale(1.2); */
+    border: 4px solid yellow;
+    animation: myAnim 2s ease 0s 1 normal forwards;
+
+    /* cursor:pointer; */
+
+}
+
+#name:hover{
+
+    transform: scale(1.1);
+    cursor: pointer;
+
+}
+
+#white{
+
+    color:white;
+
+    font-family: ubuntu;
+    font-size: 20px;
+
+}
+
+#yellow{
+
+    color:yellow;
+
+    font-family: ubuntu;
+    font-size: 20px;
+
+}
+
+@keyframes myAnim {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 1;
+		transform: translateY(-45px);
+	}
+
+	24% {
+		opacity: 1;
+	}
+
+	40% {
+		animation-timing-function: ease-in;
+		transform: translateY(-24px);
+	}
+
+	65% {
+		animation-timing-function: ease-in;
+		transform: translateY(-12px);
+	}
+
+	82% {
+		animation-timing-function: ease-in;
+		transform: translateY(-6px);
+	}
+
+	93% {
+		animation-timing-function: ease-in;
+		transform: translateY(-4px);
+	}
+
+	25%,
+	55%,
+	75%,
+	87% {
+		animation-timing-function: ease-out;
+		transform: translateY(0px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+
+@media screen and (max-width:900px) {
+
+    .container {
+
+        display:flex;
+        flex-direction: column;
+        
+        align-items: center;
+        justify-content: center;
+    
+    }
+}

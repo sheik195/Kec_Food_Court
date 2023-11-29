@@ -1,0 +1,20 @@
+.Juice_Items_Orders{
+
+    overflow: scroll;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: scroll;
+    justify-content: center;
+    background-color: black
+}
+
+.Juice_Items_Orders::-webkit-scrollbar {
+    display: none;
+}
+
+
+.Juice_Items_Orders {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}

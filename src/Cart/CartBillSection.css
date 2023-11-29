@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+.Cart_bill_section{
+
+    display: flex;
+    flex-direction:row;
+
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100vw; 
+    height: 100vh; 
+    background-color: black;
+    
+}
+
+.cart_table{
+
+    margin-top: auto;
+    margin-bottom: auto;
+ 
+}
+
+table,tr,td{
+
+    border:2px solid yellow;
+    border-collapse: collapse;
+
+    padding:10px;
+}
+
+table {
+    border-radius: 10px;
+}
+
+tr,td{
+
+    color:white;
+
+    font-family: ubuntu ;
+    text-align: center;
+}
+  
+
+/* ---------------------- cart section ------------------------------- */
+
+.cart_section{
+
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    /* justify-content: center; */
+    /* align-items: center; */
+
+
+    /* margin-top: 00px; */
+
+    
+}
+
+.total_section{
+
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+
+    align-items: center;
+
+}
+
+
+.total{
+
+    width:200px;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    border: 3px solid yellow;
+    border-radius: 20px 20px 0px 0px;
+}
+
+
+#order_bill_id{
+
+    
+    display: flex;
+    flex-direction: column;
+
+    /* justify-content: center;
+    align-items: center; */
+
+    /* text-align: center; */
+
+    font-weight:bold;
+    font-family: ubuntu;
+    font-size: 13px;
+    color:white;
+
+}
+
+hr{
+    border: 1.5px solid grey;
+    width: 190px;
+    background-color: gray;
+}
+
+.order_total_price_circle{
+
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+
+    height: 60px;
+    width: 60px;
+ 
+    margin: 20px 0px;
+    padding:20px;
+
+
+    border: 4px solid yellow;
+    border-radius: 50%;
+}
+
+.order_total_price_circle:hover{
+
+    background-color: yellow;
+    cursor:pointer;
+
+}
+
+.order_total_price_circle:hover #order_total_price {
+
+    color:black;
+
+    font-weight: bolder;
+
+}
+
+#order_total_price{
+
+    text-align: center;
+    font-weight:bold;
+    font-family: ubuntu;
+    font-size: 23px;
+    color:white;
+
+    
+    padding:10px;
+    /* margin: auto; */
+
+    cursor:pointer;
+
+
+}
+
+.total_circle{
+
+    border: 2px solid yellow;
+    border-radius: 50% 50% 0px 0px;
+
+    width:50px;
+    height: 40px;
+
+    background-color: yellow;
+
+}
+
+.total_pin_circle{
+
+    margin: auto;
+    margin-top: 12px;
+  
+
+    width:13px;
+    height: 13px;
+
+    border-radius: 50%;
+
+    background-color: black;
+}
+
+.payment{
+
+    color: white;
+    text-align: center;
+
+    font-weight: bold;
+
+    border: 3px solid yellow;
+    border-radius: 0px 0px 20px 20px ;
+
+    padding-top: 6px;
+    padding-bottom: 6px;
+
+    cursor: pointer;
+
+}
+
+#button__remove {
+
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+
+    border-radius: 5px;
+    border: solid #948302 2.5px;
+
+    font-family: Arial;
+    color: #fcfcfc;
+    font-size: 16px;
+    font-weight: bold;
+
+    background: #d6d934;
+
+    padding: 11px 23px 10px 20px;
+
+    cursor :pointer;
+    
+  }
+  
+#button__remove:hover {
+
+    background: #f5e427;
+  
+}
+/* ---------------------------------------------------------------------- */
+@-webkit-keyframes swinging{
+    0%{-webkit-transform: rotate(10deg);}
+    50%{-webkit-transform: rotate(-5deg)}
+    100%{-webkit-transform: rotate(10deg);}
+}
+ 
+@keyframes swinging{
+    0%{transform: rotate(10deg);}
+    50%{transform: rotate(-15deg)}
+    100%{transform: rotate(10deg);}
+    
+}
+ 
+.cart_section {
+    -webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swinging 3.5s ease-in-out forwards infinite;
+    animation: swinging 2.5s ease-in-out forwards infinite;
+}
+
+/* ----------------------------------------------------------- */
+
+.order_total_price_circle[jello='1'] {
+	-webkit-animation: jello-horizontal 0.9s both;
+	animation: jello-horizontal 0.9s both;
+
+    background-color: yellow;
+    
+}
+
+#order_total_price[jello='1']{
+
+    color:black
+}
+
+ @-webkit-keyframes jello-horizontal {
+    0% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+    30% {
+      -webkit-transform: scale3d(1.25, 0.75, 1);
+              transform: scale3d(1.25, 0.75, 1);
+    }
+    40% {
+      -webkit-transform: scale3d(0.75, 1.25, 1);
+              transform: scale3d(0.75, 1.25, 1);
+    }
+    50% {
+      -webkit-transform: scale3d(1.15, 0.85, 1);
+              transform: scale3d(1.15, 0.85, 1);
+    }
+    65% {
+      -webkit-transform: scale3d(0.95, 1.05, 1);
+              transform: scale3d(0.95, 1.05, 1);
+    }
+    75% {
+      -webkit-transform: scale3d(1.05, 0.95, 1);
+              transform: scale3d(1.05, 0.95, 1);
+    }
+    100% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+  }
+  @keyframes jello-horizontal {
+    0% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+    30% {
+      -webkit-transform: scale3d(1.25, 0.75, 1);
+              transform: scale3d(1.25, 0.75, 1);
+    }
+    40% {
+      -webkit-transform: scale3d(0.75, 1.25, 1);
+              transform: scale3d(0.75, 1.25, 1);
+    }
+    50% {
+      -webkit-transform: scale3d(1.15, 0.85, 1);
+              transform: scale3d(1.15, 0.85, 1);
+    }
+    65% {
+      -webkit-transform: scale3d(0.95, 1.05, 1);
+              transform: scale3d(0.95, 1.05, 1);
+    }
+    75% {
+      -webkit-transform: scale3d(1.05, 0.95, 1);
+              transform: scale3d(1.05, 0.95, 1);
+    }
+    100% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+  }
+
+.cart_table_order_now_div{
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    margin: 0 auto;
+
+
+}
+  
+.cart_table_order_now{
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+
+    z-index: 5;
+}
+
+#text_your_order{
+
+    color:white;
+
+    font-family: ubuntu;
+    font-size: 28px;
+    letter-spacing: 3px;
+}
+
+#text_take_up{
+
+    color:white;
+
+    font-family: ubuntu;
+    font-size: 24px;
+    letter-spacing: 3px;
+
+
+}
+
+#text_yellow{
+
+    color: yellow;
+}
+
+#button_order_here{
+
+    border: 2px solid yellow;
+    border-radius: 8px;
+    padding: 20px;
+    cursor: pointer;
+    margin:20px;
+    font-family: ubuntu;
+    font-size: 1rem;
+    font-weight: bold;
+    color: yellow;
+    background-color: black;
+}
+  

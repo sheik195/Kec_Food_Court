@@ -1,0 +1,27 @@
+.holder{
+    display: flex;
+    flex-direction: row;
+
+    width:100vw;
+    height:100vh;
+    background-color: black;
+}
+
+.navigation_holder{
+
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+@media screen and (max-width: 760px) {
+
+    .holder{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+}

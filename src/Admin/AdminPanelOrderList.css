@@ -1,0 +1,296 @@
+.admin_panel_order_list{
+    
+
+    /* height: 100vh; */
+}
+
+.admin_panel_heading{
+    position: sticky;
+
+    width: 100%;
+    z-index: 100;
+}
+
+.holding_container{
+    display: flex;
+    flex-direction: column;
+    
+
+   
+}
+
+.waiting_list{
+
+   
+}
+.waiting_list_scroll{
+
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 10px;
+
+    justify-content: flex-start;
+
+    overflow-x: scroll;
+  
+ 
+}
+
+.waiting_list_scroll::-webkit-scrollbar {
+    display: none;
+  }
+
+
+.waiting_list_details{
+
+    display: flex;
+    flex-direction: column;
+    
+
+    /* justify-content: center;
+    align-items: center; */
+    background-color:  rgb(241, 241, 241);
+    
+
+    font-family: ubuntu;
+    -webkit-box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.75);
+     box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.75);
+
+     width:200px;
+     height: auto;
+     margin:40px;
+
+     border-radius: 8px;
+     
+    
+}
+
+#waiting_list_text{
+
+    font-family: ubuntu 24px;
+}
+
+
+
+#amount_box{
+
+    padding-left: 10%;
+    font-family: ubuntu;
+
+    border-radius: 50%;
+    width: 20%;
+    padding: 20px;
+    margin: 0 auto;
+
+    background-color: greenyellow;
+
+}
+
+#otp_circle{
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+
+
+    /* width:70%; */
+   
+
+    text-align: center;
+    font-size: 20px;
+    padding: 0px 10px;
+
+    
+
+    
+}
+
+#bill_no_box{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    background-color: greenyellow;
+    margin:16px auto;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 6px;
+    font-family: ubuntu;
+    font-weight: bold;
+}
+
+#span_left{
+    width:20%;
+    padding: 10px;
+    background-color: greenyellow;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 16px;
+    color: black;
+
+
+
+}
+
+#span_right{
+    width: 40%;
+    padding: 10px;
+    background-color: greenyellow;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 17.5px;
+    color:black
+
+
+}
+
+.checkbox_box{
+    display: flex;
+    justify-content: center;
+   
+    /* margin:auto; */
+}
+
+/* 
+input:checked{
+    background-color: green;
+} */
+
+
+
+#pp_table_heading > td,#pp_table_row>td{
+    color:black
+}
+
+#ready_to_serve_button{
+
+    width: 60%;
+
+    margin: 20px auto;
+
+    font-weight: bold;
+
+    width: 70%;
+    background-color: greenyellow;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+
+    border:none;
+    border-radius: 20px;
+
+    cursor: pointer;
+
+
+}
+#modal_table_row >td,#modal_table_heading>td{
+    color:black;
+    border-radius: 2px;
+    
+}
+.modal_table > table{
+    /* display: flex; */
+    /* margin: auto; */
+    width: 100%;
+}
+.modal{
+    margin: auto;
+}
+
+.container_pp_amount{
+
+    display: flex;
+    flex-direction: row;
+
+    position: absolute;
+    bottom: 4px;
+    width:100%;
+    height:50%;
+
+
+
+}
+
+.past_payments,.today_payments{
+
+    /* width:50%; */
+
+    overflow-y: auto;
+    /* top: 0; */
+
+    margin: 0px;
+
+    
+    
+}
+
+.past_payments::-webkit-scrollbar,.today_payments::-webkit-scrollbar {
+    display: none;
+} 
+
+.past_payments_table{
+
+    margin: auto;
+    margin-top: 80px;
+
+    width:60%;
+}
+
+.tp_text, .pp_text{
+
+    color: black;
+    margin-left:10px ;
+
+    position: fixed;
+    width: 48%;
+    /* top: 0px; */
+
+    background-color:white;
+    padding-bottom: 2px;
+
+    /* -webkit-box-shadow: 0px 6px 21px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 6px 21px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px 6px 2px -1px rgba(0,0,0,0.75);
+
+    border-radius: 0px 0px 10px 10px; */
+
+    
+
+}
+
+.tp_text > p, .pp_text > p{
+
+    font-family: ubuntu;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center; 
+/* 
+    -webkit-box-shadow: 0px 6px 21px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 6px 21px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px 6px 21px -1px rgba(0,0,0,0.75);
+
+    border-radius: 0px 0px 10px 10px; */
+    
+
+
+}
+
+#past_payments_r{
+
+    bottom: 0px;
+    right: 0px;
+}
+#past_payments_l{
+
+    bottom: 0px;
+    left: 50px;
+}
+
+.past_payments_table,#pp_table_heading>td,#pp_table_row,#pp_table_row>td {
+
+    border: 2px greenyellow solid;
+}
+
+

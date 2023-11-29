@@ -1,0 +1,8 @@
+.Landing_Page_Two
+{
+    display: flex;
+    flex-direction: row;
+
+    width:100vw;
+    height: 100vh;
+}

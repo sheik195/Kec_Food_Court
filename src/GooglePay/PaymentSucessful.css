@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+.Payment_successful{
+
+    width: 100%;
+    margin-top: 100px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.Payment_successful > p{
+ 
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-family: ubuntu;
+
+    width:100%;
+
+
+
+    letter-spacing: 3px;
+
+
+    /* margin-top: auto; */
+
+
+}
+
+.text_yellow{
+
+    color:yellow;
+    font-weight: lighter
+}
+.wrapper{
+    /* height:100vh; */
+    /* display:flex; */
+    /* justify-content:center; */
+    /* align-items:center; */
+    background-color:black
+}
+.checkmark__circle{
+    stroke-dasharray: 166;
+    stroke-dashoffset: 166;
+    stroke-width: 2;
+    stroke-miterlimit: 10;
+    stroke: yellow;
+    fill: none;
+    animation: stroke 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards
+}
+.checkmark{width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    display: block;
+    stroke-width: 4;
+    stroke: black;
+    stroke-miterlimit: 10;
+    margin: 0 auto;
+    box-shadow: inset 0px 0px 0px yellow;
+    animation: fill .4s ease-in-out .4s forwards, scale 1s ease-in-out 1s infinite
+}
+ /* #7ac142 */
+.checkmark__check{
+    transform-origin: 50% 50%;
+    stroke-dasharray: 48;
+    stroke-dashoffset: 48;
+    animation: stroke 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.8s forwards
+}
+@keyframes stroke{
+    100%{stroke-dashoffset: 0}
+}
+@keyframes scale{
+    0%, 100%{transform: none}
+    50%{transform: scale3d(1.1, 1.1, 1)}
+}
+@keyframes fill{
+    100%{box-shadow: inset 0px 0px 0px 30px yellow}
+}
+
+.delivery_otp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 75px;
+
+    /* width: 100; */
+}
+
+.delivery_otp > p{
+    color:white;
+
+    font-size: 20px;
+
+    letter-spacing: 2px;
+
+    /* margin-top:10px; */
+    font-family: ubuntu;
+}
+
+#delivery_text1{
+    margin: auto;
+    margin: 20px 0;
+}
+
+.otp_final{
+
+    border: 3px solid yellow;
+    border-radius: 12px;
+
+    width: min-content;
+    padding: 0 30px;
+
+    margin: auto;
+
+    cursor:pointer;
+    background-color: transparent;
+
+}
+
+.otp_final > p{
+
+    color: yellow;
+
+    font-size: 29px;
+    font-family: ubuntu;
+
+}
+

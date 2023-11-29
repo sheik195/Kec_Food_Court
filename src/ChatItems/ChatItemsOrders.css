@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+
+.Chat_Items_Orders{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    /* width:100vw;
+    height:100vh; */
+
+    overflow: scroll;
+
+    justify-content: center; 
+    
+    background-color: black;
+
+}
+
+.card{
+
+    display: flex;
+    flex-direction: column;
+
+    width:250px;
+    height:350px;
+
+    align-items: center;
+
+
+    /* border: 4px solid white; */
+    border: 4px solid yellow;
+
+    border-radius: 15px;
+    background-color:  rgb(33, 33, 33);
+    /* background-color: yellow; */
+
+    box-shadow: 1px 1px 9px 6px black;
+
+    margin:30px;
+
+}
+
+/* --------------------------image section------------------------------- */
+
+.image_section{
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    width:100%;
+    height:60%;
+
+   
+
+}
+
+.image_dish{
+
+    width:94%;
+    height:94%;
+
+    /* border:4px solid yellow; */
+    border:4px solid white;
+
+    border-radius: 15px;
+    box-shadow: inset 0px 0px 5px 3px black;
+}
+
+/* -------------------------------holder section----------------------- */
+
+.holder_section{
+
+    display:flex;
+    flex-direction: row;
+
+    width:94%;
+    height: 38%;
+
+    /* align-items: center; */
+    justify-content: space-between;
+
+    border-radius: 15px;
+    background-color:  rgb(33, 33, 33);
+    
+}
+
+.section_one{
+
+    display: flex;
+    flex-direction: column;
+
+    width:58%;
+    height: 98%;
+
+    /* border:3px solid white; */
+    border-radius: 10px;
+
+    background-color:  rgb(33, 33, 33);
+    /* box-shadow: inset 0px 0px 8px 1px black; */
+    /* box-shadow: 1px 1px 9px 6px black; */
+
+    /* box-shadow: inset 0px 0px 8px 2px black; */
+    
+
+
+}
+
+.section_one_one{
+
+    height: 45%;
+    width:100%;
+}
+
+.section_one_two{
+
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: space-evenly;
+
+    height:60%;
+    width:100%;
+
+    border-radius: 12px;
+
+    box-shadow: inset 0px 0px 8px 2px black;
+
+    
+
+    
+}
+
+#dish_name{
+
+    color:white;
+
+    font-family: ubuntu;
+    font-size: 15px;
+
+    /* word-break:break-all; */
+    overflow-wrap: break-word;
+
+    padding: 0px 4px 0px 8px;
+
+}
+
+#button_count{
+
+    border : 3px solid white;
+    border-radius: 50%;
+
+    padding:10px;
+
+    font-family:ubuntu ;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+
+    width:40px;
+
+    cursor:pointer;
+
+
+    color: yellow;
+
+    background-color: rgb(33, 33, 33);
+    box-shadow: inset 0px 0px 8px 2px black;
+        /* box-shadow: 1px 1px 9px 6px black; */
+
+    /* height:100% */
+}
+
+#count{
+
+    border: 3px solid yellow;
+    border-radius: 4px;
+
+    padding:10px;
+
+    font-family: ubuntu;
+
+    color: white;
+        /* box-shadow: 1px 1px 9px 6px black; */
+    box-shadow: inset 0px 0px 8px 2px black;
+
+
+ 
+}
+
+.section_two{
+
+    display: flex;
+    flex-direction: column;
+    
+    align-items:center;
+    justify-content: space-evenly;
+
+    width:38%;
+    height:98%;
+
+    border-radius: 12px;
+
+    background-color: rgb(33, 33, 33);
+
+}
+
+.section_two_one{
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+
+    height:50%;
+    width:100%;
+
+    border-radius: 12px;
+
+    background-color: rgb(33, 33, 33);
+
+    box-shadow: 1px 1px 9px 3px black;
+
+}
+
+#price{
+
+    color:white;
+
+    font-family: ubuntu;
+    font-size: 24px;
+    font-weight: bold;
+
+    text-align:center;
+
+    color: yellow;
+
+    /* padding:5px; */
+    /* line-height: 0px; */
+
+    background-color: rgb(33, 33, 33);
+
+
+}
+
+#dolar_symbol{
+
+    color:white;
+
+    font-size: 24px;
+}
+
+.section_two_two{
+
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+
+    height:43%;
+    width:100%;
+
+    border-radius: 12px;
+
+    background-color: rgb(33, 33, 33);
+
+    /* box-shadow: 1px 1px 7px 4px black; */
+
+}
+
+#button_add{
+
+    /* padding :4px; */
+
+    width:99%;
+
+    align-items: center;
+    justify-content: center;
+
+    cursor:pointer;
+
+    font-size:16px;
+    font-family:ubuntu ;
+    font-weight: bold;
+
+    padding: 8px;
+
+    color:white;
+
+   
+    border-radius: 4px;
+    background-color: rgb(33, 33, 33);
+    box-shadow: 1px 1px 9px 3px black;
+
+
+}
+
+
+.Chat_Items_Orders::-webkit-scrollbar {
+    display: none;
+}
+
+
+.Chat_Items_Orders {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+
+@media screen and (max-width: 760px) {
+
+    .Chat_Items_Orders{
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    
+        width:100vw;
+        height:100vh;
+    
+        overflow: scroll;
+    
+        justify-content: center; 
+        
+        background-color: black;
+    
+    }
+
+}

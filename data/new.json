@@ -1,0 +1,434 @@
+{
+   
+"food_items": [
+    {
+      "id": 1,
+      "dishName": "PAROTTA",
+      "price": 15,
+      "availability": true,
+      "category": "PAROTTA"
+    },
+    {
+      "id": 2,
+      "dishName": "CHILLY PAROTTA",
+      "price": 15,
+      "availability": false,
+      "category": "PAROTTA"
+    },
+    {
+      "id": 3,
+      "dishName": "CEYLON PAROTTA",
+      "price": 20,
+      "availability": false,
+      "category": "PAROTTA"
+    },
+    {
+      "id": 4,
+      "dishName": "VEECHU PAROTTA",
+      "price": 20,
+      "availability": true,
+      "category": "PAROTTA"
+    },
+    {
+      "id": 5,
+      "dishName": "CHILLY KOTHU PAROTTA",
+      "price": 60,
+      "availability": true,
+      "category": "PAROTTA"
+    },
+    {
+      "id": 6,
+      "dishName": "EGG KOTHU",
+      "price": 50,
+      "availability": true,
+      "category": "PAROTTA"
+    },
+    {
+      "id": 7,
+      "dishName": "EGG PAROTTA",
+      "price": 25,
+      "availability": true,
+      "category": "PAROTTA"
+    },
+    {
+      "id": 8,
+      "dishName": "EGG VEECHU",
+      "category": "PAROTTA",
+      "price": 25,
+      "image_url": "http://lh6.ggpht.com/-5PE_aq7GiPg/T87Hsz7UuxI/AAAAAAAABkc/NzCoKOSG_4A/Veechu%252520parotta%252520pic2_thumb.jpg?imgmax=800"
+    },
+    {
+      "id": 9,
+      "dishName": "ROAST",
+      "category": "BREAKFAST",
+      "price": 30,
+      "image_url": "https://media.istockphoto.com/photos/cheese-plain-dosa-picture-id1267511553?k=20&m=1267511553&s=612x612&w=0&h=6lkwONBe755ZbILzDgfzfKGJZaRWC_mzmOEh5bVjM28="
+    },
+    {
+      "id": 10,
+      "dishName": "GHEE ROAST",
+      "category": "BREAKFAST",
+      "price": 35,
+      "image_url": "https://tse2.mm.bing.net/th?id=OIP.t8A_K5v1hjRSzruOZ5C28gHaI4&pid=Api&P=0"
+    },
+    {
+      "id": 11,
+      "dishName": "MASAL DOSA",
+      "category": "BREAKFAST",
+      "price": 40,
+      "image_url": "https://img.freepik.com/premium-photo/masala-dosa-is-south-indian-meal-served-with-sambhar-coconut-chutney-selective-focus_466689-22963.jpg?size=626&ext=jpg&ga=GA1.2.143097825.1666342290&semt=sph"
+    },
+    {
+      "id": 12,
+      "dishName": "ONION DOSA",
+      "category": "BREAKFAST",
+      "price": 35,
+      "image_url": "https://img.freepik.com/free-photo/delicious-indian-dosa-composition_23-2149086051.jpg?size=626&ext=jpg&ga=GA1.2.143097825.1666342290&semt=sph"
+    },
+    {
+      "id": 13,
+      "dishName": "EGG ROAST",
+      "category": "BREAKFAST",
+      "price": 40,
+      "image_url": "https://img.freepik.com/premium-photo/egg-dosa-is-popular-south-indian-non-vegetarian-breakfast-meal-served-with-sambar-chutney_466689-34019.jpg?size=626&ext=jpg&ga=GA1.2.143097825.1666342290&semt=sph"
+    },
+    {
+      "id": 14,
+      "dishName": "PODI ROAST",
+      "category": "BREAKFAST",
+      "price": 35,
+      "image_url": "https://img.freepik.com/premium-photo/dosa-ghee-roast-dhosa-famous-south-indian-breakfast-item-which-is-made-caste-iron-pan_527904-2957.jpg?size=626&ext=jpg&ga=GA1.2.143097825.1666342290&semt=sph"
+    },
+    {
+      "id": 15,
+      "dishName": "DOSA",
+      "category": "BREAKFAST",
+      "price": 15,
+      "image_url": "https://media.istockphoto.com/photos/indian-masala-dosa-thosai-picture-id1300801423?k=20&m=1300801423&s=612x612&w=0&h=ofVg9xcjG8B3TomV18iHMKGNAhn8FNedi_8UGVtFchE="
+    },
+    {
+      "id": 16,
+      "dishName": "EGG KOTHU",
+      "price": 50,
+      "availability": true,
+      "category": "SOUP"
+    },
+    {
+      "id": 17,
+      "dishName": "ONION UTHAPAM",
+      "category": "BREAKFAST",
+      "price": 35,
+      "image_url": "https://media.istockphoto.com/photos/south-indian-dish-uthappam-picture-id470551789?k=20&m=470551789&s=612x612&w=0&h=xs84aoqhBHVsczAcQuBO_6HgErqcbh-xPRut2iW7iQk="
+    },
+    {
+      "id": 18,
+      "dishName": "POORI",
+      "category": "BREAKFAST",
+      "price": 15,
+      "image_url": "https://media.istockphoto.com/photos/masala-aloo-sabzi-or-indian-potato-curry-served-with-fried-puri-or-picture-id1309890111?k=20&m=1309890111&s=612x612&w=0&h=-_2DMGy5wUYdp4GF9FRiq0abXGJW6O_LU0tgJR3_9eQ="
+    },
+    {
+      "id": 19,
+      "dishName": "CHAPPATI",
+      "category": "BREAKFAST",
+      "price": 15,
+      "image_url": "https://img.freepik.com/free-photo/indian-tasty-roti-composition_23-2149073358.jpg?size=626&ext=jpg&ga=GA1.2.143097825.1666342290&semt=sph"
+    },
+    {
+      "id": 20,
+      "dishName": "OMLET",
+      "category": "EGG",
+      "price": 15,
+      "image_url": "https://media.istockphoto.com/photos/omelette-fried-eggs-with-vegetables-on-wooden-background-picture-id918703556?k=20&m=918703556&s=612x612&w=0&h=3zKf6GeAiEO6R5_d9m5crY3I6EQPz8DaHPUgEmaezGE="
+    },
+    {
+      "id": 21,
+      "dishName": "HALF BOIL",
+      "category": "EGG",
+      "price": 12,
+      "image_url": "https://img.freepik.com/free-photo/top-view-breakfast-fried-eggs-plate-with-cutlery_23-2148891779.jpg?size=626&ext=jpg&ga=GA1.2.143097825.1666342290&semt=sph"
+    },
+    {
+      "id": 22,
+      "dishName": "FULL BOIL",
+      "category": "EGG",
+      "price": 12,
+      "image_url": "https://tse3.mm.bing.net/th?id=OIP.YIduJf2sY8wWULVMg_fQDAHaE7&pid=Api&P=0"
+    },
+    {
+      "id": 23,
+      "dishName": "EGG PORIYAL",
+      "category": "EGG",
+      "price": 20,
+      "image_url": "https://media.istockphoto.com/photos/egg-bhurji-a-preparation-of-scrambled-eggs-with-tomatoesonionsgingers-picture-id1292582686?k=20&m=1292582686&s=612x612&w=0&h=vYnDazUjnce6yhnevYFAkmSuL9whHROm258ND6X5jbs="
+    },
+    {
+      "id": 24,
+      "dishName": "CHICKEN BIRIYANI",
+      "category": "BIRIYANI",
+      "price": 55,
+      "image_url": "https://img.freepik.com/free-photo/indian-chicken-biryani-served-terracotta-bowl-with-yogurt-white-background-selective-focus_466689-72552.jpg?w=360&t=st=1667539194~exp=1667539794~hmac=fee0f0908609edf243237d68344cbd4ca883f2190f4cbe312d909bb122f45af2 "
+    },
+    {
+      "id": 25,
+      "dishName": "VEG BIRIYANI",
+      "category": "BIRIYANI",
+      "price": 40,
+      "image_url": "https://img.freepik.com/free-photo/egg-biryani-basmati-rice-cooked-with-masala-roasted-eggs-spices-served-with-yogurt-selective-focus_466689-72564.jpg?size=338&ext=jpg&ga=GA1.2.1977926811.1667539268&semt=sph "
+    },
+    {
+      "id": 25,
+      "dishName": "MUSHROOM BIRIYANI",
+      "category": "BIRIYANI",
+      "price": 50,
+      "image_url": "https://img.freepik.com/premium-photo/tasty-mushroom-mashroom-rice-pulav-pilaf-pulao-biryani-served-bowl-plate-selective-focus_466689-4114.jpg?size=626&ext=jpg&ga=GA1.2.1977926811.1667539268&semt=sph "
+    },
+    {
+      "id": 26,
+      "dishName": "VEG FRIED RICE",
+      "category": "FRIED RICE",
+      "price": 40,
+      "image_url": "https://img.freepik.com/free-photo/yummy-soya-pulao-pilav-pulav-rice-soyabean-chunk-fried-rice-with-peas-beans-indian-pakistani-cuisine_466689-75173.jpg?size=338&ext=jpg&ga=GA1.2.1977926811.1667539268&semt=sph"
+    },
+    {
+      "id": 27,
+      "dishName": "CHICKEN RICE",
+      "category": "FRIED RICE",
+      "price": 55,
+      "image_url": "https://img.freepik.com/free-photo/schezwan-fried-rice-masala-szechuan-rice-is-popular-indo-chinese-food-served-plate-bowl-with-chopsticks-selective-focus_466689-74709.jpg?size=626&ext=jpg&ga=GA1.2.143097825.1666342290"
+    },
+    {
+      "id": 28,
+      "dishName": "VEG NOODLES",
+      "category": "NOODLES",
+      "price": 40,
+      "image_url": "https://img.freepik.com/premium-photo/schezwan-noodles-with-vegetables-plate_158388-20.jpg?size=626&ext=jpg&ga=GA1.2.143097825.1666342290&semt=sph"
+    },
+    {
+      "id": 29,
+      "dishName": "CHICKEN NOODLES",
+      "category": "NOODLES",
+      "price": 55,
+      "image_url": "https://media.istockphoto.com/photos/shanghai-fried-noodle-shanghai-chow-mein-chinese-food-picture-id625525492?k=20&m=625525492&s=612x612&w=0&h=CiVAIu7zFBKZixywE9hCSr71h5vcCLDTAGwniGNRzrY="
+    },
+    {
+      "id": 30,
+      "dishName": "SECHZWAN NOODLES",
+      "category": "NOODLES",
+      "price": 45,
+      "image_url": "https://media.istockphoto.com/photos/mie-goreng-in-black-bowl-on-dark-slate-table-top-indonesian-cuisine-picture-id1302592106?k=20&m=1302592106&s=612x612&w=0&h=6TwAVFpuEPelUsDmqeKKH0a41vmCamtmyLCjvd3gOI4="
+    },
+    {
+      "id": 28,
+      "dishName": "GOBI NOODLES",
+      "category": "NOODLES",
+      "price": 45,
+      "image_url": "https://img.freepik.com/premium-photo/schezwan-noodles-with-vegetables-plate_158388-20.jpg?size=626&ext=jpg&ga=GA1.2.143097825.1666342290&semt=sph"
+    },
+    {
+      "id": 29,
+      "dishName": "PANNER BUTTER MASALA",
+      "category": "GRAVY",
+      "price": 75,
+      "image_url": "https://media.istockphoto.com/photos/butter-chicken-indian-chicken-curry-dish-picture-id1163559500?k=20&m=1163559500&s=612x612&w=0&h=v10JxmIeNS9pf0u0aQBUNiZFdbDwVd0tCeXsf65r-28="
+    },
+    {
+      "id": 30,
+      "dishName": "CHICKEN CHETTINADU",
+      "category": "GRAVY",
+      "price": 75,
+      "image_url": "https://img.freepik.com/free-photo/curry-with-chicken-onions-indian-food-asian-cuisine_2829-4415.jpg?size=626&ext=jpg&ga=GA1.2.143097825.1666342290&semt=sph"
+    },
+    {
+      "id": 31,
+      "dishName": "CHICKEN PALLIPALAYAM",
+      "category": "GRAVY",
+      "price": 75,
+      "image_url": "https://img.freepik.com/free-photo/curry-with-chicken-onions-indian-food-asian-cuisine_2829-4415.jpg?size=626&ext=jpg&ga=GA1.2.143097825.1666342290&semt=sph"
+    },
+    {
+      "id": 32,
+      "dishName": "MUSHROOM MASALA",
+      "category": "GRAVY",
+      "price": 60,
+      "image_url": "https://img.freepik.com/free-photo/curry-with-chicken-onions-indian-food-asian-cuisine_2829-4415.jpg?size=626&ext=jpg&ga=GA1.2.143097825.1666342290&semt=sph"
+    },
+    {
+      "id": 33,
+      "dishName": "NAAN",
+      "category": "NAAN",
+      "price": 25,
+      "image_url": "https://img.freepik.com/free-photo/curry-with-chicken-onions-indian-food-asian-cuisine_2829-4415.jpg?size=626&ext=jpg&ga=GA1.2.143097825.1666342290&semt=sph"
+    },
+    {
+      "id": 34,
+      "dishName": "BUTTER NAAN",
+      "category": "NAAN",
+      "price": 30,
+      "image_url": "https://img.freepik.com/free-photo/aloo-paratha-gobi-paratha-also-known-as-potato-cauliflower-stuffed-flatbread-dish-originating-from-indian-subcontinent_466689-76173.jpg?size=626&ext=jpg&ga=GA1.2.1977926811.1667539268&semt=sph"
+    },
+    {
+      "id": 35,
+      "dishName": "ROMALI ROTTI",
+      "category": "NAAN",
+      "price": 25,
+      "image_url": "https://www.freepik.com/free-photo/homemade-wheat-tortillas-pita-bread-tortilla-pita-with-ingredients-cooking-white-table-top-view_25464909.htm#query=roti&from_query=ROOTI&position=9&from_view=search&track=sph"
+    },
+    {
+      "id": 101,
+      "dishName": "LEMON",
+      "category": "JUICE",
+      "price": 10,
+      "image_url": "https://img.freepik.com/free-photo/slices-fruits-near-glass-drink-with-ice-herbs-board_23-2148107705.jpg?size=626&ext=jpg&ga=GA1.2.776606574.1667195147&semt=sph"
+    },
+    {
+      "id": 102,
+      "dishName": "ORANGE",
+      "category": "JUICE",
+      "price": 20,
+      "image_url": "https://media.istockphoto.com/photos/glass-of-orange-juice-picture-id866921274?k=20&m=866921274&s=612x612&w=0&h=aS_t5YrxrAWDCK9iYefWhmUHe75QuQNlGE91knLuXZw="
+    },
+    {
+      "id": 103,
+      "dishName": "WATERMELON",
+      "category": "JUICE",
+      "price": 20,
+      "image_url": "https://img.freepik.com/free-photo/cold-watermelon-smoothie-dark-background_1150-41818.jpg?size=626&ext=jpg&ga=GA1.2.776606574.1667195147&semt=sph"
+    },
+    {
+      "id": 104,
+      "dishName": "MANGO",
+      "category": "JUICE",
+      "price": 25,
+      "image_url": "https://media.istockphoto.com/photos/mango-smoothie-picture-id1318362821?k=20&m=1318362821&s=612x612&w=0&h=akjzUJTzdvaQ_VtKvO6yTzilK8AVSa30sW418N0SSCA="
+    },
+    {
+      "id": 105,
+      "dishName": "CARROT",
+      "category": "JUICE",
+      "price": 30,
+      "image_url": "https://media.istockphoto.com/photos/carrot-juice-picture-id513475587?k=20&m=513475587&s=612x612&w=0&h=aSMX1t-lVSm4NmK2sGSIkVdv1ImLFtQWbp9tMws7XkY="
+    },
+    {
+      "id": 106,
+      "dishName": "PAPAYA",
+      "category": "JUICE",
+      "price": 40,
+      "image_url": "https://media.istockphoto.com/photos/healthy-papaya-orange-and-mango-smoothie-picture-id802461326?k=20&m=802461326&s=612x612&w=0&h=mb2rKXvhSR19mExIDqScSt2PDkC9KXQ7rz02nCbQppw="
+    },
+    {
+      "id": 107,
+      "dishName": "MANGO MILKSHAKE",
+      "category": "JUICE",
+      "price": 50,
+      "image_url": "https://media.istockphoto.com/photos/mango-lassi-in-glasses-picture-id908734588?k=20&m=908734588&s=612x612&w=0&h=WLV-E_RJh_z33_1_xW8nm6YEjXKqZmq9V6LJZsbosJM="
+    },
+    {
+      "id": 108,
+      "dishName": "BUTTER SCOTCH",
+      "category": "JUICE",
+      "price": 50,
+      "image_url": "https://media.istockphoto.com/photos/tasty-blueberry-smoothie-in-glass-picture-id1156323059?k=20&m=1156323059&s=612x612&w=0&h=UPHepH5TGisRMqXsuWXeagW2esJ5jnY13S6eo3aaEnk="
+    },
+    {
+      "id": 109,
+      "dishName": "CHOCOLATE MILKSHAKE",
+      "category": "JUICE",
+      "price": 60,
+      "image_url": "https://media.istockphoto.com/photos/chocolate-milkshake-picture-id1291175021?k=20&m=1291175021&s=612x612&w=0&h=dV__iQd1kJedsFRO-uGQQojNsyKrUb0QpFh_jqrRZco="
+    },
+    {
+      "id": 110,
+      "dishName": "STRAWBERRY MILKSHAKE",
+      "category": "JUICE",
+      "price": 40,
+      "image_url": "https://media.istockphoto.com/photos/strawberry-smoothie-picture-id576740204?k=20&m=576740204&s=612x612&w=0&h=VXP2UJpXgj6s3tFFgQxZBXTVBsq0IGEgynaqurf1a_c="
+    },
+    {
+      "id": 111,
+      "dishName": "PANI POORI",
+      "category": "SNACKS",
+      "price": 30,
+      "image_url": "https://img.freepik.com/premium-photo/panipuri-fuchka-gupchup-golgappa-pani-ke-patake-is-type-snack-that-originated-indian-subcontinent_466689-69045.jpg?size=626&ext=jpg&ga=GA1.2.776606574.1667195147&semt=sph"
+    },
+    {
+      "id": 112,
+      "dishName": "MASALA POORI",
+      "category": "SNACKS",
+      "price": 25,
+      "image_url": "https://media.istockphoto.com/photos/homemade-pani-puri-golgappa-picture-id861264162?k=20&m=861264162&s=612x612&w=0&h=0t4-Q9f4y1k3bkRRAsQ_OR9WFTHE-Z0VN4Vu7xBITjk="
+    },
+    {
+      "id": 113,
+      "dishName": "VEG ROLL",
+      "category": "SNACKS",
+      "price": 15,
+      "image_url": "https://media.istockphoto.com/photos/indian-veg-chapati-wrap-kathi-roll-served-in-a-plate-with-sauce-over-picture-id1024561120?k=20&m=1024561120&s=612x612&w=0&h=M9d6W3rZZK6bl7wx4KdqwRveYVzSm7Vb3DLgZCkgHKA="
+    },
+    {
+      "id": 114,
+      "dishName": "EGG ROLL",
+      "category": "SNACKS",
+      "price": 20,
+      "image_url": "https://img.freepik.com/free-photo/side-view-chicken-roll-grilled-chicken-lettuce-cucumber-tomato-mayo-pita_141793-4849.jpg?size=626&ext=jpg&ga=GA1.2.776606574.1667195147&semt=sph"
+    },
+    {
+      "id": 115,
+      "dishName": "CHICKEN ROLL",
+      "category": "SNACKS",
+      "price": 25,
+      "image_url": "https://img.freepik.com/free-photo/side-view-doner-with-grilled-chicken-greens-lettuce-tomato-french-fries-table_141793-4881.jpg?size=626&ext=jpg&ga=GA1.2.776606574.1667195147&semt=sph"
+    },
+    {
+      "id": 116,
+      "dishName": "PUFFS",
+      "category": "SNACKS",
+      "price": 12,
+      "image_url": "https://img.freepik.com/free-photo/top-view-puff-pies-with-meat-rice-plate_141793-4108.jpg?size=626&ext=jpg&ga=GA1.2.776606574.1667195147&semt=sph"
+    }
+  ],
+  "bill": [
+    {
+      "id": 1,
+      "billNo": 1244,
+      "amount": 250,
+      "otp": "2586"
+    },
+    {
+      "id": 2,
+      "billNo": 3431,
+      "amount": 250,
+      "otp": "2586"
+    },
+    {
+      "id": 3,
+      "billNo": 4531,
+      "amount": 250,
+      "otp": "2586"
+    },
+    {
+      "id": 11,
+      "billNo": 3451123456,
+      "amount": 250,
+      "otp": "2586"
+    },
+    {
+      "id": 22,
+      "billNo": 2451,
+      "amount": 250,
+      "otp": "2586"
+    },
+    {
+      "id": 23,
+      "billNo": 5671,
+      "amount": 250,
+      "otp": "2586"
+    },
+    {
+      "id": 233,
+      "billNo": 5671,
+      "amount": 250,
+      "otp": "2586"
+    }
+  ]
+}
